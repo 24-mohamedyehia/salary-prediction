@@ -3,7 +3,7 @@ import numpy as np
 from joblib import load
 
 # Load Model
-model = load('./employee_salary_model.joblib')
+model = load('./models/employee_salary_model.joblib')
 
 st.title("Employee Salary Prediction App")
 st.write("Predict employee salary based on years of experience")
