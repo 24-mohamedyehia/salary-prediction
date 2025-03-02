@@ -9,7 +9,7 @@ st.title("Employee Salary Prediction App")
 st.write("Predict employee salary based on years of experience")
 
 # User Input
-experience = st.number_input("Enter Years of Experience:", min_value=0.0, max_value=50.0, step=0.1)
+experience = st.number_input("Enter Years of Experience:", min_value=0, max_value=30, step=1)
 
 if st.button("Predict"):
     if experience == 0:
